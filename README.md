@@ -5,6 +5,7 @@
 > 
 > MySQL 官方源码下载: https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.35.tar.gz
 
+fork from [mysql-annotated-5.7.35](https://github.com/shockerli/mysql-annotated-5.7.35)
 
 ## DEBUG 环境
 作者基于 macOS + VSCode 进行编译调试，也可用 CLion 等其他 IDE。下面两篇文章可供参考：

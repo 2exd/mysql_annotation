@@ -1772,7 +1772,7 @@ bool dispatch_command(THD *thd, const COM_DATA *com_data,
       SHUTDOWN_DEFAULT is 0. If client is >= 4.1.3, the shutdown level is in
       packet[0].
     */
-    enum mysql_enum_shutdown_level level;
+    enum mysql_enum_shutdown_level level; // 留的坑，default 以外的 LEVEL 都没实现
     if (!thd->is_valid_time())
       level= SHUTDOWN_DEFAULT;
     else
